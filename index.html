@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <button class="signin">Sign In</button>
+    <div class="player">
+      <img src="./assets/imgAlb.jpg" alt="img" class="album-img" id="album-img"/>
+      <h1 class="title" id="title">CrasH Talk</h1>
+      <div class="progressbar" id="progressbar">
+        <div class="start">0:00</div>
+        <div class="bar-wrapper">
+        <div class="bar" id="bar"></div>
+      </div>
+        <div class="fulltime">2:55</div>
+      </div>
+      <div class="group-btns">
+        <button class="btn">
+            <i class="fa fa-step-backward" id="previous"></i>
+          </button>
+          <button class="btn">
+            <i class="fa fa-backward"></i>
+          </button>
+          <button class="btn">
+            <i class="fa fa-play" id="main-control"></i>
+            <i class="fa fa-pause" id="pause-control"></i>
+          </button>
+          <button class="btn">
+            <i class="fa fa-forward"></i>
+          </button>
+          <button class="btn">
+            <i class="fa fa-step-forward" id="next"></i>
+          </button>
+        
+      </div>
+    </div>
+
+<div class="modal">
+  <div class="modal-wrapper">
+  <input type="text" name="username" placeholder="Username">
+  <input type="password" name="password" placeholder="Password">
+  <button type="submit" class="submit">Submit</button>
+</div>
+</div>
+    <script src="/app.js"></script>
+  </body>
+</html>
